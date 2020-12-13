@@ -17,7 +17,8 @@ public class DsConsumer
 		// DataStore ds = new DataStore();
 		DataStore ds = new DataStore("C:\\Users\\PS\\Documents\\DataStore");
 		System.out.println(ds.create("1", jsonObject, 10));
-		System.out.println(ds.create("2", jsonObject, 10))
+		System.out.println(ds.create("2", jsonObject, 10));
+		System.out.println(ds.create("3", jsonObject, 10));
 		
 		
 		try 
@@ -55,7 +56,7 @@ public class DsConsumer
 		
 		
 		System.out.println("AFTER WAIT");
-        System.out.println(ds.read("2"));
+                System.out.println(ds.read("2"));
 
 		
 		
