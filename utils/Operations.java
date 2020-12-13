@@ -207,7 +207,7 @@ public class Operations {
 	}
 
 	
-	public static User readData(String key, String filePath) 
+public static User readData(String key, String filePath) 
 	{
 		ObjectInputStream objectInputStream = null;
 		HashMap<String, User> dataMap = null;
@@ -265,7 +265,7 @@ public class Operations {
 	}
 
 
-	public static boolean deleteData(String key, String filePath)
+public static boolean deleteData(String key, String filePath)
 	{
 
 		FileOutputStream fileOutputStream = null;
